@@ -11,9 +11,9 @@ export default {
         512
     ],
     "fonts": {
-        "body": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+        "body": "Montserrat, -apple-system, Roboto, sans-serif",
         "heading": "inherit",
-        "monospace": "Menlo, monospace"
+        "type": "AmericanTypewriter-Bold, inherit"
     },
     "fontSizes": [
         12,
@@ -36,23 +36,17 @@ export default {
         "heading": 1.125
     },
     "colors": {
-        "text": "#000",
-        "background": "#fff",
-        "primary": "#07c",
-        "secondary": "#30c",
-        "muted": "#f6f6f6",
-        "modes": {
-            "dark": {
-                "text": "#fff",
-                "background": "#060606",
-                "primary": "#3cf",
-                "secondary": "#e0f",
-                "muted": "#191919",
-                "highlight": "#29112c",
-                "gray": "#999",
-                "purple": "#c0f"
-            }
-        }
+        "text": "#fff",
+        "background": "#2282C6",
+        "primary-red": "#E35F63",
+        "primary-green": "#4EB546",
+        "primary-wash-blue":"#5995BF",
+        "primary-blue":"#258CD4",
+        "primary-dark-green":"#3F8B64",
+        "primary-orange":"#EF9C2C",
+        "primary":"#FFFF1A",
+        "secondary":"#4A888E",
+        
     },
     "styles": {
         "root": {
@@ -110,30 +104,6 @@ export default {
         },
         "a": {
             "color": "primary"
-        },
-        "pre": {
-            "fontFamily": "monospace",
-            "overflowX": "auto",
-            "code": {
-                "color": "inherit"
-            }
-        },
-        "code": {
-            "fontFamily": "monospace",
-            "fontSize": "inherit"
-        },
-        "table": {
-            "width": "100%",
-            "borderCollapse": "separate",
-            "borderSpacing": 0
-        },
-        "th": {
-            "textAlign": "left",
-            "borderBottomStyle": "solid"
-        },
-        "td": {
-            "textAlign": "left",
-            "borderBottomStyle": "solid"
         },
         "img": {
             "maxWidth": "100%"
