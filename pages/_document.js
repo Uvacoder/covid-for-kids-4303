@@ -15,7 +15,7 @@ class MyDocument extends Document {
                     <style jsx global>{`
         @font-face {
             font-family: 'AmericanTypewriter';
-            src: url('../static/fonts/American Typewriter Regular.ttf');
+            src: url('/static/fonts/American Typewriter Regular.ttf');
         }
         
         `}</style>
