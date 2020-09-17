@@ -13,12 +13,11 @@ class MyDocument extends Document {
                 <Head>
                     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,300;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet" />
                     <style jsx global>{`
-        @font-face {
-            font-family: 'AmericanTypewriter';
-            src: url('/static/fonts/American Typewriter Regular.ttf');
-        }
-        
-        `}</style>
+                    @font-face {
+                        font-family: 'AmericanTypewriter';
+                        src: url('/static/fonts/American Typewriter Regular.ttf');
+                    }
+                    `}</style>
                 </Head>
                 <body>
                     <Main />

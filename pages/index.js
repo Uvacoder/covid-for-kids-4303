@@ -4,7 +4,7 @@ import Card from "../components/Card"
 let CardHover = ({ sx, ...props }) => <Card sx={{
     transition: "transform .2s",
     ":hover": {
-        transform: "scale(1.08)",
+        transform: "scale(1.05)",
         cursor: "pointer"
     },
     bg: "white",
