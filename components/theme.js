@@ -13,7 +13,7 @@ export default {
     "fonts": {
         "body": "Montserrat, -apple-system, Roboto, sans-serif",
         "heading": "inherit",
-        "type": "AmericanTypewriter-Bold, inherit"
+        "type": "AmericanTypewriter, sans-serif"
     },
     "fontSizes": [
         12,
@@ -40,13 +40,13 @@ export default {
         "background": "#2282C6",
         "primary-red": "#E35F63",
         "primary-green": "#4EB546",
-        "primary-wash-blue":"#5995BF",
-        "primary-blue":"#258CD4",
-        "primary-dark-green":"#3F8B64",
-        "primary-orange":"#EF9C2C",
-        "primary":"#FFFF1A",
-        "secondary":"#4A888E",
-        
+        "primary-wash-blue": "#5995BF",
+        "primary-blue": "#258CD4",
+        "primary-dark-green": "#3F8B64",
+        "primary-orange": "#EF9C2C",
+        "primary": "#FFFF1A",
+        "secondary": "#4A888E",
+
     },
     "styles": {
         "root": {
