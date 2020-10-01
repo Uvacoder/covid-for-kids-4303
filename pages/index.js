@@ -1,5 +1,6 @@
 import { Flex, Heading, Text, Image, Link as A } from "rebass";
 import Card from "../components/Card"
+import Link from "next/link"
 
 let CardHover = ({ sx, ...props }) => <Card sx={{
     transition: "transform .2s",
@@ -32,24 +33,28 @@ export default () => {
 
                     flexWrap: "wrap"
                 }}>
-                    <CardHover bg="white" width="300px">
-                        <Image src="../static/3-5.png" sx={{
-                            width: "75px",
-                            height: "75px"
-                        }} mx="auto" mb="15px" />
-                        <Text mx="auto" fontSize={3} fontWeight="300">Age</Text>
-                        <Heading mx="auto" fontSize={[4, 5, 6]} fontFamily="type">3-5</Heading>
-                        <Text m="auto">Simple Educational Videos.</Text>
-                    </CardHover>
-                    <CardHover bg="white" width="300px">
-                        <Image src="../static/6-8.png" sx={{
-                            width: "75px",
-                            height: "75px"
-                        }} mx="auto" mb="15px" />
-                        <Text mx="auto" fontSize={3} fontWeight="300">Age</Text>
-                        <Heading mx="auto" fontSize={[4, 5, 6]} fontFamily="type">6-8</Heading>
-                        <Text m="auto">Educational Videos and interactive media.</Text>
-                    </CardHover>
+                    <Link href="/landing3to5">
+                        <CardHover bg="white" width="300px">
+                            <Image src="../static/3-5.png" sx={{
+                                width: "75px",
+                                height: "75px"
+                            }} mx="auto" mb="15px" />
+                            <Text mx="auto" fontSize={3} fontWeight="300">Age</Text>
+                            <Heading mx="auto" fontSize={[4, 5, 6]} fontFamily="type">3-5</Heading>
+                            <Text m="auto">Simple Educational Videos.</Text>
+                        </CardHover>
+                    </Link>
+                    <Link href="/landing6to8">
+                        <CardHover bg="white" width="300px">
+                            <Image src="../static/6-8.png" sx={{
+                                width: "75px",
+                                height: "75px"
+                            }} mx="auto" mb="15px" />
+                            <Text mx="auto" fontSize={3} fontWeight="300">Age</Text>
+                            <Heading mx="auto" fontSize={[4, 5, 6]} fontFamily="type">6-8</Heading>
+                            <Text m="auto">Educational Videos and interactive media.</Text>
+                        </CardHover>
+                    </Link>
                     <CardHover bg="white" width="300px">
                         <Image src="../static/9-12.png" sx={{
                             width: "75px",
