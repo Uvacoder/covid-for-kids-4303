@@ -56,7 +56,7 @@ export default () => {
                     flexDirection: "row",
                     flexWrap: "wrap"
                 }}>
-                    {data[1].map((section, i) => {
+                    {data[2].map((section, i) => {
                         return (
                             <>
                                 {i % 2 == 0 ?
@@ -65,17 +65,13 @@ export default () => {
                                         height: 0
                                     }} />
                                     : null}
-                                <Flex mx="auto">
-                                    <Flex mx="10px">
-                                        <Link href={`/videos/1#${section.title.toLowerCase().split(" ").join("-")}`}>
-                                            <CategoryBarHover
-                                                imageSource={section.img}
-                                                textM={section.title}
-                                                colorBorder={section.color}
-                                            />
-                                        </Link>
-                                    </Flex>
-                                </Flex>
+                                <Link href={`/videos/2#${section.title.toLowerCase().split(" ").join("-")}`}>
+                                    <CategoryBarHover
+                                        imageSource={section.img}
+                                        textM={section.title}
+                                        colorBorder={section.color}
+                                    />
+                                </Link>
                                 {i % 2 == 0 && i == data[1].length - 1 ? <Flex width="450px" mx="auto" /> : null}
                             </>
                         )
