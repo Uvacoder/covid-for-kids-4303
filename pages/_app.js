@@ -11,7 +11,7 @@ export default ({ Component, pageProps }) => {
                 width: "100vw",
                 minHeight: "100vh"
             }}>
-                <Flex width="100vw">
+                <Flex width="100vw" height="70px">
                     <Link href="/">
                         <Image sx={{
                             width: "150px",
