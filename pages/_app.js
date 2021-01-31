@@ -22,13 +22,13 @@ export default ({ Component, pageProps }) => {
                     <meta property="og:url" content="https://kids.covidb.org" />
                     <meta property="og:title" content="CoviDB 4 Kids" />
                     <meta property="og:description" content="CoviDB 4 Kids is a COVID-19 (a new coronavirus) educational resource database." />
-                    <meta property="og:image" content="https://kids.covidb.org/static/preview.png" />
+                    <meta property="og:image" content="https://kids.covidb.org/static/preview.jpg" />
 
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta property="twitter:url" content="https://kids.covidb.org" />
                     <meta property="twitter:title" content="CoviDB 4 Kids" />
                     <meta property="twitter:description" content="CoviDB 4 Kids is a COVID-19 (a new coronavirus) educational resource database." />
-                    <meta property="twitter:image" content="https://kids.covidb.org/static/preview.png" />
+                    <meta property="twitter:image" content="https://kids.covidb.org/static/preview.jpg" />
 
                 </Head>
                 <Flex width="100vw" height="70px">
