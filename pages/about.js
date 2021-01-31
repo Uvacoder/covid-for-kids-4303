@@ -21,7 +21,8 @@ export default () => {
             m: "auto",
             px: ["20px", "50px", "100px"],
             py: "10px",
-            flexDirection: "column"
+            flexDirection: "column",
+            fontWeight: "400"
         }}>
             <Heading fontSize={[4, 5, 6]} mb="10px">About</Heading>
             <Text>Welcome to CoviDB 4 Kids! This is a place where you can learn about different aspects of COVID-19 (a new coronavirus). These videos use simple, effective, and fun ways to provide answers to many common questions that you might have about the virus. So sit back, grab a buddy and some popcorn, and press play!</Text>
