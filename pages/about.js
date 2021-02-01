@@ -25,7 +25,7 @@ export default () => {
             fontWeight: "400"
         }}>
             <Heading fontSize={[4, 5, 6]} mb="10px">About</Heading>
-            <Text>Welcome to CoviDB 4 Kids! This is a place where you can learn about different aspects of COVID-19 (a new coronavirus). These videos use simple, effective, and fun ways to provide answers to many common questions that you might have about the virus. So sit back, grab a buddy and some popcorn, and press play!</Text>
+            <Text>Welcome to CoviDB 4 Kids! This is a place where you can learn about different aspects of COVID-19 (a new coronavirus). These videos use simple, effective, and fun ways to provide answers to many common questions that you might have about the virus. So sit back, grab some popcorn, and press play!</Text>
             <Flex height="10px" />
             <Text>CoviDB for Kids is dedicated in memory of Dr. David Katzenstein, a world-class Professor of Medicine/Infectious Diseases at Stanford University. An ardent believer that education was key to solving global health challenges, he was an active volunteer with TeachAids since it's founding in 2009, and helped launch the <A href="https://covidb.org" target="_blank"></A>CoviDB platform. He passed away on January 25, 2021 of COVID-19 in Zimbabwe surrounded by medical staff he had trained and mentored, pursuing his life's mission, which was to eliminate suffering.</Text>
             <Flex height="10px" />
