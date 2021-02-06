@@ -1,21 +1,24 @@
 {
-	"name": "covid-kids",
-	"version": "1.0.0",
-	"description": "CoviDB Kids website",
-	"scripts": {
-		"build": "next build",
-		"export": "npm run build && next export",
-		"test": "next"
-	},
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"next": "^9.4.4",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"react-feather": "^2.0.9",
-		"rebass": "^4.0.7",
-		"theme-ui": "^0.3.1",
-		"tinycolor2": "^1.4.2"
-	}
+  "name": "covid-kids",
+  "version": "1.0.0",
+  "description": "CoviDB Kids website",
+  "scripts": {
+    "build": "next build",
+    "export": "npm run build && next export",
+    "test": "next"
+  },
+  "installConfig": {
+    "pnp": true
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-feather": "^2.0.9",
+    "rebass": "^4.0.7",
+    "theme-ui": "^0.3.1",
+    "tinycolor2": "^1.4.2"
+  }
 }
