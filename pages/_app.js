@@ -16,7 +16,7 @@ export default ({ Component, pageProps }) => {
                     <title>CoviDB 4 Kids</title>
                     <meta name="title" content="CoviDB 4 Kids" />
                     <meta name="description" content="CoviDB 4 Kids is a COVID-19 (a new coronavirus) educational resource database." />
-
+                    <script src='https://analytics.stacc.cc/api/script/g7JWHsTUHz7u'></script>
 
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://kids.covidb.org" />
